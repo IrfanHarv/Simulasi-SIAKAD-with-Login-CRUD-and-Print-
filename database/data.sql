@@ -1,3 +1,5 @@
+-- Please running this queryb first
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
