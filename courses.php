@@ -82,11 +82,27 @@ include 'includes/header.php';
                     </div>
                     <div class="form-group">
                         <label for="semester">Semester</label>
-                        <input type="text" class="form-control" id="semester" name="semester" required>
+                        <div>
+                            <select class="form-select" id="semester" name="semester" aria-label="Default select example">
+                                <option value="Semester 1">Semester 1</option>
+                                <option value="Semester 2">Semester 2</option>
+                                <option value="Semester 3">Semester 3</option>
+                                <option value="Semester 4">Semester 4</option>
+                                <option value="Semester 5">Semester 5</option>
+                                <option value="Semester 6">Semester 6</option>
+                                <option value="Semester 7">Semester 7</option>
+                                <option value="Semester 8">Semester 8</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="sks">SKS</label>
-                        <input type="text" class="form-control" id="sks" name="sks" required>
+                        <div>
+                            <select class="form-select" id="sks" name="sks" aria-label="Default select example">
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
