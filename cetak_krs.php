@@ -29,7 +29,7 @@ include 'includes/header.php';
 <table class="table table-bordered mt-3">
     <thead>
         <tr>
-            <th>ID</th>
+            <th>No.</th>
             <th>Nama Mata Kuliah</th>
             <th>Semester</th>
             <th>SKS</th>
