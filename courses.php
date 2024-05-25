@@ -83,7 +83,7 @@ include 'includes/header.php';
                     <div class="form-group">
                         <label for="semester">Semester</label>
                         <div>
-                            <select class="form-select" id="semester" name="semester" aria-label="Default select example">
+                            <select class="form-select" id="semester" name="semester" required>
                                 <option value="Semester 1">Semester 1</option>
                                 <option value="Semester 2">Semester 2</option>
                                 <option value="Semester 3">Semester 3</option>
@@ -98,7 +98,7 @@ include 'includes/header.php';
                     <div class="form-group">
                         <label for="sks">SKS</label>
                         <div>
-                            <select class="form-select" id="sks" name="sks" aria-label="Default select example">
+                            <select class="form-select" id="sks" name="sks" required>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
